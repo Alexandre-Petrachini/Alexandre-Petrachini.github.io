@@ -1,4 +1,3 @@
-
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react-swc";
 import path from "path";
@@ -6,7 +5,8 @@ import { componentTagger } from "lovable-tagger";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
-  base: mode === 'production' ? '/Alexandre-Petrachini.github.io/' : '/',
+  // Use "/" as the base for production since this is a user site.
+  base: "/",
   server: {
     host: "::",
     port: 8080,
