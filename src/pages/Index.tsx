@@ -21,11 +21,11 @@ const Index = () => {
             </h1>
             <div className="glass-morphism rounded-2xl p-8 mb-6">
               <p className="text-xl md:text-2xl text-valentine-darkblue font-medium mb-4">
-                Minha Amazona, Meu Amor
+                Minha Paraense
               </p>
               <p className="text-lg text-gray-700 leading-relaxed">
                 Você é a luz que ilumina meus dias, minha vida. 
-                Desde Belém até aqui, você trouxe magia para minha vida.
+                Desde Belém até aqui, você trouxe magia e agitação para minha vida.
                 Te amo infinitamente! 💙
               </p>
             </div>
